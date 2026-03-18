@@ -1,0 +1,15 @@
+torch>=2.4.0+cu124
+tensorboard
+timm
+pandas
+opencv-python
+rasterio
+xarray
+tensorly
+einops
+tensorly-torch
+matplotlib
+earthaccess
+xarray
+netCDF4
+numpy
