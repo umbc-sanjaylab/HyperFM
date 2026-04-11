@@ -1,3 +1,11 @@
+CVPR Paper: 
+
+Please Cite the above paper if you use code or dataset.
+
+Dataset: A subset of the HyperFM250k dataset is available on Zenodo at this link: https://zenodo.org/uploads/19495359
+
+
+
 **HyperFM — Data download & preprocess**
 
 This README explains how to use the repository scripts to download PACE data and run the preprocessing pipeline that produces paired HSI and target files for model training.
