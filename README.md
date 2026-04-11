@@ -1,8 +1,8 @@
-CVPR Paper: Zahid Hassan Tushar, and Sanjay Purushotham, "HyperFM: An Efficient Hyperspectral Foundation Model with Spectral Grouping", In proceedings of The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 (findings).
+**CVPR Paper**: Zahid Hassan Tushar, and Sanjay Purushotham, "HyperFM: An Efficient Hyperspectral Foundation Model with Spectral Grouping", In proceedings of The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 (findings).
 
 Please Cite the above paper if you use code or dataset.
 
-Dataset: A subset of the HyperFM250k dataset is available on Zenodo at this link: https://zenodo.org/uploads/19495359
+*Dataset*: A subset of the HyperFM250k dataset is available on Zenodo at this link: https://zenodo.org/uploads/19495359
 
 
 
