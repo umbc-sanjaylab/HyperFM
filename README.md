@@ -142,7 +142,7 @@ torchrun --nproc-per-node=4 --rdzv_backend=c10d \
 
 **Finetuning (`main_finetune.py`)**
 
-- **Overview**: Use `main_finetune.py` to finetune the pre-trained encoder + decoder (or decoder-only) for downstream regression tasks. The repository includes `finetune.sh` as a runnable example that performs GPU checks, logs output, sets `CUDA_VISIBLE_DEVICES`, and launches multi-GPU finetuning with `torchrun`.
+- **Overview**: Use `main_finetune.py` to finetune the pre-trained encoder + decoder (or decoder-only) for downstream regression tasks. The repository includes `finetune.sh` as a runnable example that performs GPU checks, logs output, sets `CUDA_VISIBLE_DEVICES`, and launches multi-GPU finetuning with `torchrun`. To finetune using HyperFM pretrained weights, download first the checkpoint from here "https://tinyurl.com/HyperFM", and set the checkpoint path to the HyperFM checkpoint. 
 
 - **What `finetune.sh` does**:
   - Creates a timestamped log file under `finetune_dir/` and redirects both stdout and stderr into it while still printing to the console (`tee`).
